@@ -179,3 +179,8 @@ nav a{
     padding-top: 10%;
     mix-blend-mode: normal;
 }
+.bigOne h2{
+font-weight: 600;
+font-size: 4.6rem;
+color: white;
+}
