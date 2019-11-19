@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-family: 'Josefin', sans-serif;
+}
+p {
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+.container {
+    width: 1340px;
+    margin: 0 auto;
+}
+/* Header Styling */
+header{
+    background-image: url(../img/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #095D8B;
+    mix-blend-mode: multiply;
+    padding-bottom: 40%;
+    
+}
+nav{
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 0 5% 10% 5%;
+    padding-top: 4%;
+    color: white;
+}
+header div{
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    margin-right: 30%;
+    margin-left:
+}
+nav h2{
+    font-weight: 900;
+    font-size: 2.4rem;
+    line-height: 43px;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
+.main h1{
+    font-size: 9rem;
+    font-weight: 500;
+    line-height: 115%;
+    color: white;
+}
+.main h2{
+    font-size: 9rem;
+    font-weight: 500;
+    line-height: 115%;
+    color:#32ba56;
+}
+.scroll{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    color: white;
+    letter-spacing: 6px;
+}
+/* Map Section */
+.map{
+    padding-top: 10%;
+    display: flex;
+}
+.column{
+    display:flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.map h4{
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: #095D8B;
+}
+.map h2{
+    font-weight: 600;
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+}
+.map p{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 5%;
+}
+.map button{
+    background-color: #095D8B;
+    border-radius: 36px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+/* bigOne Section */
+.bigOne{
+    background: linear-gradient(180deg, rgba(9, 93, 139, 0.51) 0%, #095D8B 80.07%);
+    display: flex;
+    padding-top: 10%;
+    mix-blend-mode: normal;
+}
