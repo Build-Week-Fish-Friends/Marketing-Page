@@ -184,3 +184,51 @@ font-weight: 600;
 font-size: 4.6rem;
 color: white;
 }
+.bigOne p{
+font-family: Lato;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 163.35%;
+color: white;
+padding-bottom: 6%;
+}
+.bigOne button{
+    background-color: #095D8B;
+    border-radius: 36px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.bigOne img{
+    margin-bottom: 8%;
+}
+/* Services Section */
+.services{
+background:#4A6C2F;
+opacity: 0.5;
+}
+.topServices{
+text-align: center;
+width: 40%;
+margin-left: 30%;
+padding-top: 8%;
+}
+.topServices h2{
+font-style: normal;
+font-weight: 600;
+font-size: 4.8rem;
+line-height: 48px;
+color: white;
+}
+.topServices p{
+font-family: Lato;
+font-style: normal;
+font-weight: 800;
+font-size: 1.6rem;
+line-height: 163.35%;
+color: white;
+}
